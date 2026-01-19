@@ -135,14 +135,14 @@ export default function ComingSoonHero() {
             </div>
             <div className="flex flex-col gap-2 md:gap-3 text-white/80">
               <a 
-                href="mailto:info@vocca.co.za" 
+                href="mailto:hoosen@vocca.co.za" 
                 className="flex items-center gap-2 hover:text-[#d4a574] transition-colors"
               >
                 <Mail size={14} className="sm:w-4 sm:h-4" />
                 <span className="text-[11px] sm:text-xs md:text-sm">hoosen@vocca.co.za</span>
               </a>
               <a 
-                href="tel:+27123456789" 
+                href="tel:+27807861314" 
                 className="flex items-center gap-2 hover:text-[#d4a574] transition-colors"
               >
                 <Phone size={14} className="sm:w-4 sm:h-4" />

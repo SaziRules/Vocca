@@ -15,26 +15,26 @@ export default function RightNav() {
       
       {/* Social Icons at Bottom */}
       <div className="flex flex-col gap-4">
-        <button 
+        <a 
           className="w-10 h-10 flex items-center justify-center hover:opacity-70 transition-opacity"
-          aria-label="YouTube"
+          aria-label="YouTube" href='https://youtube.com/' target='_blank'
         >
           <Youtube size={20} />
-        </button>
+        </a>
         
-        <button 
-          className="w-10 h-10 flex items-center justify-center hover:opacity-70 transition-opacity"
+        <a 
+          className="w-10 h-10 flex items-center justify-center hover:opacity-70 transition-opacity" href='https://x.com/' target='_blank'
           aria-label="Twitter"
         >
           <Twitter size={20} />
-        </button>
+        </a>
         
-        <button 
-          className="w-10 h-10 flex items-center justify-center hover:opacity-70 transition-opacity"
-          aria-label="Instagram"
+        <a 
+          className="w-10 h-10 flex items-center justify-center hover:opacity-70 transition-opacity" href="https://instagram.com/vocca.sa" target='_blank'
+          aria-label="Instagram" 
         >
           <Instagram size={20} />
-        </button>
+        </a>
       </div>
     </div>
   );
