@@ -142,11 +142,11 @@ export default function ComingSoonHero() {
                 <span className="text-[11px] sm:text-xs md:text-sm">hoosen@vocca.co.za</span>
               </a>
               <a 
-                href="tel:+27807861314" 
+                href="tel:+27837861314" 
                 className="flex items-center gap-2 hover:text-[#d4a574] transition-colors"
               >
                 <Phone size={14} className="sm:w-4 sm:h-4" />
-                <span className="text-[11px] sm:text-xs md:text-sm">+27 80 786 1314</span>
+                <span className="text-[11px] sm:text-xs md:text-sm">+27 83 786 1314</span>
               </a>
               <a 
                 href="https://instagram.com/vocca.sa" 
